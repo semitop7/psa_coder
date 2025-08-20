@@ -1,0 +1,3803 @@
+{
+  "protocol": "UDS",
+  "protocol_id": ">743:643",
+  "unlock": ":16FB:03:03",
+  "open": "1003",
+  "delay": 0,
+  "ecu_name": "EMF_DGT_LVDS_BD",
+  "lang_present": [
+    "ar_AE",
+    "cs_CZ",
+    "da_DK",
+    "de_DE",
+    "el_GR",
+    "en_GB",
+    "es_AR",
+    "es_ES",
+    "fi_FI",
+    "fr_FR",
+    "hr_HR",
+    "hu_HU",
+    "it_IT",
+    "ja_JP",
+    "ko_KR",
+    "nl_NL",
+    "pl_PL",
+    "pt_BR",
+    "pt_PT",
+    "ro_RO",
+    "ru_RU",
+    "sl_SI",
+    "sv_SE",
+    "tr_TR",
+    "zh_CN"
+  ],
+  "ecu_ident": {
+    "id": "F080",
+    "mask": "00000000000000000000FFFFFFFFFF0000",
+    "ident": {
+      "EMF_DGT_LVDS_BD_A55P_V1": "0000000000000000000098206567800000",
+      "EMF_DGT_LVDS_BD_A88C_V1": "0000000000000000000098297965800000",
+      "EMF_DGT_LVDS_BD_A9_V1": "0000000000000000000098120469800000",
+      "EMF_DGT_LVDS_BD_A9_V2": "0000000000000000000098250291800000",
+      "EMF_DGT_LVDS_BD_A9_V3": "0000000000000000000098316424800000",
+      "EMF_DGT_LVDS_BD_B75C_V1": "0000000000000000000098107230800000",
+      "EMF_DGT_LVDS_BD_B75C_V2": "0000000000000000000098284502800000",
+      "EMF_DGT_LVDS_BD_B78_V1": "0000000000000000000098130409800000",
+      "EMF_DGT_LVDS_BD_B78_V2": "0000000000000000000098250293800000",
+      "EMF_DGT_LVDS_BD_B78_V3": "0000000000000000000098316528800000",
+      "EMF_DGT_LVDS_BD_B7_V1": "0000000000000000000098117509800000",
+      "EMF_DGT_LVDS_BD_B7_V2": "0000000000000000000098250289800000",
+      "EMF_DGT_LVDS_BD_B8_V1": "0000000000000000000098075934800000",
+      "EMF_DGT_LVDS_BD_B8_V2": "0000000000000000000098130412800000",
+      "EMF_DGT_LVDS_BD_C84C_V1": "0000000000000000000098107230800000",
+      "EMF_DGT_LVDS_BD_C84C_V2": "0000000000000000000098187690800000",
+      "EMF_DGT_LVDS_BD_C84C_V3": "0000000000000000000098284220800000",
+      "EMF_DGT_LVDS_BD_C84C_V4": "0000000000000000000098304264800000",
+      "EMF_DGT_LVDS_BD_C84C_V5": "0000000000000000000098449710800000",
+      "EMF_DGT_LVDS_BD_C84C_V6": "0000000000000000000098449714800000",
+      "EMF_DGT_LVDS_BD_CP4_V1": "0000000000000000000098320597800000",
+      "EMF_DGT_LVDS_BD_CP4_V2": "0000000000000000000098404564800000",
+      "EMF_DGT_LVDS_BD_CP4_V3": "0000000000000000000098404565800000",
+      "EMF_DGT_LVDS_BD_D34_V1": "0000000000000000000098221928800000",
+      "EMF_DGT_LVDS_BD_D34_V2": "0000000000000000000098284769800000",
+      "EMF_DGT_LVDS_BD_D34_V3": "0000000000000000000098398771800000",
+      "EMF_DGT_LVDS_BD_D34_V4": "0000000000000000000098605818800000",
+      "EMF_DGT_LVDS_BD_K0_250316_V3": "0000000000000000000098250316800000",
+      "EMF_DGT_LVDS_BD_K0_V1": "0000000000000000000098075934800000",
+      "EMF_DGT_LVDS_BD_K0_V2": "0000000000000000000098130412800000",
+      "EMF_DGT_LVDS_BD_K0_V4": "0000000000000000000098316658800000",
+      "EMF_DGT_LVDS_BD_K9_V1": "0000000000000000000098186087800000",
+      "EMF_DGT_LVDS_BD_K9_V2": "0000000000000000000098304264800000",
+      "EMF_DGT_LVDS_BD_K9_V3": "0000000000000000000098284220800000",
+      "EMF_DGT_LVDS_BD_K9_V4": "0000000000000000000098519803800000",
+      "EMF_DGT_LVDS_BD_M3_M4_V1": "0000000000000000000098176464800000",
+      "EMF_DGT_LVDS_BD_M3_M4_V2": "0000000000000000000098120469800000",
+      "EMF_DGT_LVDS_BD_M3_M4_V3": "0000000000000000000098316424800000",
+      "EMF_DGT_LVDS_BD_P2JO_V1": "0000000000000000000098221928800000",
+      "EMF_DGT_LVDS_BD_P2JO_V2": "0000000000000000000098377213800000",
+      "EMF_DGT_LVDS_BD_P2JO_V3": "0000000000000000000098639953800000",
+      "EMF_DGT_LVDS_BD_P2JO_V4": "0000000000000000000098605984800000",
+      "EMF_DGT_LVDS_BD_P2_V1": "0000000000000000000098221928800000",
+      "EMF_DGT_LVDS_BD_P2_V2": "0000000000000000000098400514800000",
+      "EMF_DGT_LVDS_BD_P2_V3": "0000000000000000000098377213800000",
+      "EMF_DGT_LVDS_BD_P2_V4": "0000000000000000000098605984800000",
+      "EMF_DGT_LVDS_BD_P8_V1": "0000000000000000000098100326800000",
+      "EMF_DGT_LVDS_BD_P8_V10": "0000000000000000000098137314800000",
+      "EMF_DGT_LVDS_BD_P8_V11": "0000000000000000000098284352800000",
+      "EMF_DGT_LVDS_BD_P8_V2": "0000000000000000000098144020800000",
+      "EMF_DGT_LVDS_BD_P8_V3": "0000000000000000000098284494800000",
+      "EMF_DGT_LVDS_BD_P8_V4": "0000000000000000000098284183800000",
+      "EMF_DGT_LVDS_BD_P8_V5": "0000000000000000000098304242800000",
+      "EMF_DGT_LVDS_BD_P8_V6": "0000000000000000000098296452800000",
+      "EMF_DGT_LVDS_BD_P8_V7": "0000000000000000000098221928800000",
+      "EMF_DGT_LVDS_BD_P8_V8": "0000000000000000000098349817800000",
+      "EMF_DGT_LVDS_BD_P8_V9": "0000000000000000000098400514800000",
+      "EMF_DGT_LVDS_BD_R8_V1": "0000000000000000000098174353800000",
+      "EMF_DGT_LVDS_BD_R8_V2": "0000000000000000000098171831800000",
+      "EMF_DGT_LVDS_BD_R8_V3": "0000000000000000000098241181800000",
+      "EMF_DGT_LVDS_BD_R8_V4": "0000000000000000000098396889800000",
+      "EMF_DGT_LVDS_BD_V1": "0000000000000000000098376547800000",
+      "EMF_DGT_LVDS_BD_V10": "0000000000000000000098480489800000",
+      "EMF_DGT_LVDS_BD_V11": "0000000000000000000098377213800000",
+      "EMF_DGT_LVDS_BD_V12": "0000000000000000000098509401800000",
+      "EMF_DGT_LVDS_BD_V13": "0000000000000000000098569294800000",
+      "EMF_DGT_LVDS_BD_V14": "0000000000000000000098531773800000",
+      "EMF_DGT_LVDS_BD_V2": "0000000000000000000098376545800000",
+      "EMF_DGT_LVDS_BD_V3": "0000000000000000000098388573800000",
+      "EMF_DGT_LVDS_BD_V4": "0000000000000000000098389122800000",
+      "EMF_DGT_LVDS_BD_V5": "0000000000000000000098386101800000",
+      "EMF_DGT_LVDS_BD_V6": "0000000000000000000098389123800000",
+      "EMF_DGT_LVDS_BD_V7": "0000000000000000000098392370800000",
+      "EMF_DGT_LVDS_BD_V8": "0000000000000000000098398771800000",
+      "EMF_DGT_LVDS_BD_V9": "0000000000000000000098400514800000",
+      "EMF_DGT_LVDS_BD_W2_V1": "0000000000000000000098250316800000",
+      "EMF_DGT_LVDS_BD_W2_V2": "0000000000000000000098130412800000",
+      "EMF_DGT_LVDS_BD_X74_V1": "0000000000000000000098186087800000",
+      "EMF_DGT_LVDS_BD_X74_V2": "0000000000000000000098175812800000",
+      "EMF_DGT_LVDS_BD_X74_V3": "0000000000000000000098283025800000",
+      "EMF_DGT_LVDS_BD_X74_V4": "0000000000000000000098284220800000",
+      "EMF_DGT_LVDS_BD_X74_V5": "0000000000000000000098187690800000",
+      "EMF_DGT_LVDS_BD_X74_V6": "0000000000000000000098304264800000",
+      "EMF_DGT_LVDS_BD_X74_V7": "0000000000000000000098348933800000",
+      "EMF_DGT_LVDS_BD_X74_V8": "0000000000000000000098444579800000",
+      "EMF_DGT_LVDS_BD_X7RR_V1": "0000000000000000000098107230800000",
+      "EMF_DGT_LVDS_BD_X7RR_V2": "0000000000000000000098284502800000",
+      "EMF_DGT_LVDS_BD_X83_V1": "0000000000000000000098187690800000",
+      "EMF_DGT_LVDS_BD_X83_V2": "0000000000000000000098284502800000",
+      "EMF_DGT_LVDS_BD_X83_V3": "0000000000000000000098283025800000",
+      "EMF_DGT_LVDS_BD_X83_V4": "0000000000000000000098444579800000",
+      "EMF_DGT_LVDS_BD_X8_V1": "0000000000000000000098107230800000",
+      "EMF_DGT_LVDS_BD_X8_V2": "0000000000000000000098284502800000",
+      "EMF_DGT_LVDS_BD_X8_V3": "0000000000000000000098187690800000"
+    }
+  },
+  "finalised": null,
+  "map": {
+    "EMF_DGT_LVDS_BD_A55P_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_A88C_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_A9_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_A9_V2": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_A9_V3": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_B75C_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_B75C_V2": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_B78_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_B78_V2": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_B78_V3": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_B7_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_B7_V2": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_B8_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_B8_V2": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_C84C_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_C84C_V2": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_C84C_V3": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_C84C_V4": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_C84C_V5": null,
+    "EMF_DGT_LVDS_BD_C84C_V6": null,
+    "EMF_DGT_LVDS_BD_CP4_V1": null,
+    "EMF_DGT_LVDS_BD_CP4_V2": null,
+    "EMF_DGT_LVDS_BD_CP4_V3": null,
+    "EMF_DGT_LVDS_BD_D34_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_D34_V2": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_D34_V3": null,
+    "EMF_DGT_LVDS_BD_D34_V4": null,
+    "EMF_DGT_LVDS_BD_K0_250316_V3": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_K0_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_K0_V2": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_K0_V4": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_K9_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_K9_V2": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_K9_V3": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_K9_V4": null,
+    "EMF_DGT_LVDS_BD_M3_M4_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_M3_M4_V2": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_M3_M4_V3": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_P2JO_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_P2JO_V2": null,
+    "EMF_DGT_LVDS_BD_P2JO_V3": null,
+    "EMF_DGT_LVDS_BD_P2JO_V4": null,
+    "EMF_DGT_LVDS_BD_P2_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_P2_V2": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_P2_V3": null,
+    "EMF_DGT_LVDS_BD_P2_V4": null,
+    "EMF_DGT_LVDS_BD_P8_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_P8_V10": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_P8_V11": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_P8_V2": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_P8_V3": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_P8_V4": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_P8_V5": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_P8_V6": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_P8_V7": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_P8_V8": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_P8_V9": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_R8_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_R8_V2": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_R8_V3": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_R8_V4": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_V1": null,
+    "EMF_DGT_LVDS_BD_V10": null,
+    "EMF_DGT_LVDS_BD_V11": null,
+    "EMF_DGT_LVDS_BD_V12": null,
+    "EMF_DGT_LVDS_BD_V13": null,
+    "EMF_DGT_LVDS_BD_V14": null,
+    "EMF_DGT_LVDS_BD_V2": null,
+    "EMF_DGT_LVDS_BD_V3": null,
+    "EMF_DGT_LVDS_BD_V4": null,
+    "EMF_DGT_LVDS_BD_V5": null,
+    "EMF_DGT_LVDS_BD_V6": null,
+    "EMF_DGT_LVDS_BD_V7": null,
+    "EMF_DGT_LVDS_BD_V8": null,
+    "EMF_DGT_LVDS_BD_V9": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_W2_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_W2_V2": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_X74_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_X74_V2": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_X74_V3": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_X74_V4": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_X74_V5": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_X74_V6": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_X74_V7": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_X74_V8": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_X7RR_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_X7RR_V2": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_X83_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_X83_V2": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_X83_V3": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_X83_V4": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_X8_V1": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_X8_V2": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    },
+    "EMF_DGT_LVDS_BD_X8_V3": {
+      "2110": {
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 192,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "00"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "01"
+            },
+            "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+              "statyname": "BINARYFIXED",
+              "stavalue": "02"
+            }
+          }
+        },
+        "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 2,
+          "dattyname": "BOOLEAN",
+          "addtyname": "BITS",
+          "states": {
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+              "statyname": "BOOLEAN",
+              "stavalue": "0"
+            },
+            "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+              "statyname": "BOOLEAN",
+              "stavalue": "1"
+            }
+          }
+        },
+        "RESERVED_02345": {
+          "absoluteoffset": 3,
+          "addbitlength": 8,
+          "addbitmask": 61,
+          "dattyname": "BINARY",
+          "addtyname": "BITS",
+          "states": null
+        }
+      }
+    }
+  },
+  "name": {
+    "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000": {
+      "parlname": "Type de détection des appuis sur l'écran multifonction tactile ",
+      "pardescription": "",
+      "states": [
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00",
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01",
+        "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10"
+      ],
+      "parlibmp": {
+        "ar_AE": "نوع اكتشاف عمليات الضغط على شاشة اللمس متعددة الوظائف",
+        "cs_CZ": "Typ detekce stisků dotykové vícefunkční obrazovky",
+        "da_DK": "Type af registrering af tryk på den berøringsfølsomme multifunktionsskærm",
+        "de_DE": "Erkennungsart der Drücke auf den Multifunktions-Touchscreen",
+        "el_GR": "Τύπος ανίχνευσης πατημέτων στην οθόνη αφής multi",
+        "en_GB": "Type of detection of presses on the multifunction touch screen",
+        "es_AR": "Tipo de detección de los toques en la pantalla multifunción táctil",
+        "es_ES": "Tipo de detección de las pulsaciones sobre la pantalla multifunción táctil",
+        "fi_FI": "Monitoimikosketusnäytön painallusten tunnistustyyppi",
+        "fr_FR": "Type de détection des appuis sur l'écran multifonction tactile",
+        "hr_HR": "Tip otkrivanja pritisaka na taktilni višenamjenski ekran",
+        "hu_HU": "A többfunkciós érintős képernyőn lévő megnyomások észlelésének típusa",
+        "it_IT": "Tipo di rilevazione delle pressioni sul display multifunzione touch screen",
+        "ja_JP": "マルチファンクションタッチパネルの押下検出の種類",
+        "ko_KR": "다기능 터치 스크린의 누름 감지 타입",
+        "nl_NL": "Type aanraakdetectie van het multifunctionele touchscreen",
+        "pl_PL": "Typ wykrywania przyciśnięć na dotykowym ekranie wielofunkcyjnym",
+        "pt_BR": "Tipo de detecção dos apertos na tela multifunções tátil",
+        "pt_PT": "Tipo de deteção dos apoios no ecrã multifunções táctil",
+        "ro_RO": "Tip de detectare a apasarilor pe ecranul multifunctional tactil",
+        "ru_RU": "Тип определения нажатия на многофункциональный сенсорный экран",
+        "sl_SI": "Vrsta zaznavanja pritiska na večfunkcijski zaslon na dotik",
+        "sv_SE": "Typ av detektering av tryckningarna på pekskärmen",
+        "tr_TR": "Dokunmatik çok işlevli ekrana basma işlemlerinin algılama tipi",
+        "zh_CN": "多功能触摸屏按压检测类型"
+      },
+      "paraide": null
+    },
+    "CFG_DU1_EMF_PICTURE_REVERSED_000": {
+      "parlname": "Etat de l'image",
+      "pardescription": "",
+      "states": [
+        "CFG_DU1_EMF_PICTURE_REVERSED_000_0",
+        "CFG_DU1_EMF_PICTURE_REVERSED_000_1"
+      ],
+      "parlibmp": {
+        "ar_AE": "حالة الصورة",
+        "cs_CZ": "Stav obrazu",
+        "da_DK": "Billedets tilstand",
+        "de_DE": "Zustand des Bilds",
+        "el_GR": "Κατάσταση της εικόνας",
+        "en_GB": "Status of the image",
+        "es_AR": "Estado de la imagen",
+        "es_ES": "Estado de la imagen",
+        "fi_FI": "Kuvan tila",
+        "fr_FR": "Etat de l'image",
+        "hr_HR": "Stanje slike",
+        "hu_HU": "A kép állapota",
+        "it_IT": "Stato dell'immagine",
+        "ja_JP": "画像のステータス",
+        "ko_KR": "이미지 상태",
+        "nl_NL": "Staat van de afbeelding",
+        "pl_PL": "Stan obrazu",
+        "pt_BR": "Estado da imagem",
+        "pt_PT": "Estado da imagem",
+        "ro_RO": "Starea imaginii",
+        "ru_RU": "Состояние изображения",
+        "sl_SI": "Stanje slike",
+        "sv_SE": "Bildens status",
+        "tr_TR": "Resmin durumu",
+        "zh_CN": "图像状态"
+      },
+      "paraide": null
+    },
+    "RESERVED_02345": {
+      "parlname": "Etat de l'image",
+      "pardescription": "",
+      "states": [],
+      "parlibmp": null,
+      "paraide": null
+    }
+  },
+  "value": {
+    "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_00": {
+      "stalname": "MonoTouch",
+      "stadescription": null,
+      "discvallib": {
+        "ar_AE": "MonoTouch",
+        "cs_CZ": "MonoTouch",
+        "da_DK": "MonoTouch",
+        "de_DE": "MonoTouch",
+        "el_GR": "MonoTouch",
+        "en_GB": "MonoTouch",
+        "es_AR": "MonoTouch",
+        "es_ES": "MonoTouch",
+        "fi_FI": "MonoTouch",
+        "fr_FR": "MonoTouch",
+        "hr_HR": "MonoTouch",
+        "hu_HU": "MonoTouch",
+        "it_IT": "MonoTouch",
+        "ja_JP": "MonoTouch",
+        "ko_KR": "MonoTouch",
+        "nl_NL": "MonoTouch",
+        "pl_PL": "MonoTouch",
+        "pt_BR": "MonoTouch",
+        "pt_PT": "MonoTouch",
+        "ro_RO": "MonoTouch",
+        "ru_RU": "MonoTouch",
+        "sl_SI": "MonoTouch",
+        "sv_SE": "MonoTouch",
+        "tr_TR": "MonoTouch",
+        "zh_CN": "MonoTouch"
+      }
+    },
+    "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_01": {
+      "stalname": "DualTouch",
+      "stadescription": null,
+      "discvallib": {
+        "ar_AE": "DualTouch",
+        "cs_CZ": "DualTouch",
+        "da_DK": "DualTouch",
+        "de_DE": "DualTouch",
+        "el_GR": "DualTouch",
+        "en_GB": "DualTouch",
+        "es_AR": "DualTouch",
+        "es_ES": "DualTouch",
+        "fi_FI": "DualTouch",
+        "fr_FR": "DualTouch",
+        "hr_HR": "DualTouch",
+        "hu_HU": "DualTouch",
+        "it_IT": "DualTouch",
+        "ja_JP": "DualTouch",
+        "ko_KR": "DualTouch",
+        "nl_NL": "DualTouch",
+        "pl_PL": "DualTouch",
+        "pt_BR": "DualTouch",
+        "pt_PT": "DualTouch",
+        "ro_RO": "DualTouch",
+        "ru_RU": "DualTouch",
+        "sl_SI": "DualTouch",
+        "sv_SE": "DualTouch",
+        "tr_TR": "DualTouch",
+        "zh_CN": "DualTouch"
+      }
+    },
+    "CFG_DM8_EMF_TYPE_DETECTION_MULTI_000_10": {
+      "stalname": "MultiTouch",
+      "stadescription": null,
+      "discvallib": {
+        "ar_AE": "MultiTouch",
+        "cs_CZ": "MultiTouch",
+        "da_DK": "MultiTouch",
+        "de_DE": "MultiTouch",
+        "el_GR": "MultiTouch",
+        "en_GB": "MultiTouch",
+        "es_AR": "MultiTouch",
+        "es_ES": "MultiTouch",
+        "fi_FI": "MultiTouch",
+        "fr_FR": "MultiTouch",
+        "hr_HR": "MultiTouch",
+        "hu_HU": "MultiTouch",
+        "it_IT": "MultiTouch",
+        "ja_JP": "MultiTouch",
+        "ko_KR": "MultiTouch",
+        "nl_NL": "MultiTouch",
+        "pl_PL": "MultiTouch",
+        "pt_BR": "MultiTouch",
+        "pt_PT": "MultiTouch",
+        "ro_RO": "MultiTouch",
+        "ru_RU": "MultiTouch",
+        "sl_SI": "MultiTouch",
+        "sv_SE": "MultiTouch",
+        "tr_TR": "MultiTouch",
+        "zh_CN": "MultiTouch"
+      }
+    },
+    "CFG_DU1_EMF_PICTURE_REVERSED_000_0": {
+      "stalname": "image non inversée",
+      "stadescription": null,
+      "discvallib": {
+        "ar_AE": "الصورة غير معكوسة",
+        "cs_CZ": "Neobrácený obraz",
+        "da_DK": "Ikke omvendt billede",
+        "de_DE": "Bild nicht umgekehrt",
+        "el_GR": "Εικόνα μη αντεστραμμένη",
+        "en_GB": "Image not inverted",
+        "es_AR": "Imagen no invertida",
+        "es_ES": "Imagen no invertida",
+        "fi_FI": "Kuva ei ole käänteinen",
+        "fr_FR": "Image non inversée",
+        "hr_HR": "Neobrnuta slika",
+        "hu_HU": "Nem fordított kép",
+        "it_IT": "Immagine non capovolta",
+        "ja_JP": "画像の反転無し",
+        "ko_KR": "이미지 전환 안됨",
+        "nl_NL": "Beeld niet omgekeerd",
+        "pl_PL": "Obraz nieodwrócony",
+        "pt_BR": "Imagem não invertida",
+        "pt_PT": "Imagem não invertida",
+        "ro_RO": "Imagine neinversata",
+        "ru_RU": "Не перевернутое изображение",
+        "sl_SI": "Slika ni obrnjena",
+        "sv_SE": "Bilden är inte upp och ned",
+        "tr_TR": "Ters çevrilmemiş resim",
+        "zh_CN": "图像未倒置"
+      }
+    },
+    "CFG_DU1_EMF_PICTURE_REVERSED_000_1": {
+      "stalname": "image inversée",
+      "stadescription": null,
+      "discvallib": {
+        "ar_AE": "الصورة معكوسة",
+        "cs_CZ": "Obrácený obraz",
+        "da_DK": "Omvendt billede",
+        "de_DE": "Bild umgekehrt",
+        "el_GR": "Εικόνα αντεστραμμένη",
+        "en_GB": "Image inverted",
+        "es_AR": "Imagen invertida",
+        "es_ES": "Imagen invertida",
+        "fi_FI": "Kuva on käänteinen",
+        "fr_FR": "Image inversée",
+        "hr_HR": "Obrnuta slika",
+        "hu_HU": "Fordított kép",
+        "it_IT": "Immagine capovolta",
+        "ja_JP": "画像の反転有り",
+        "ko_KR": "이미지 전환",
+        "nl_NL": "Beeld omgekeerd",
+        "pl_PL": "Obraz odwrócony",
+        "pt_BR": "Imagem invertida",
+        "pt_PT": "Imagem invertida",
+        "ro_RO": "Imagine inversata",
+        "ru_RU": "Перевернутое изображение",
+        "sl_SI": "Slika je obrnjena",
+        "sv_SE": "Bilden är upp och ned",
+        "tr_TR": "Ters çevrilmiş resim",
+        "zh_CN": "图像倒置"
+      }
+    }
+  }
+}
