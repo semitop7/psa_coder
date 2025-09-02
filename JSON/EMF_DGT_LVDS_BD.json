@@ -132,7 +132,32 @@
       "EMF_DGT_LVDS_BD_X8_V3": "0000000000000000000098187690800000"
     }
   },
-  "finalised": null,
+    "finalised": {
+    "id": "2901",
+    "length": 10,
+    "value": {
+      "ANNEE_TLC_UNM": {
+        "length": 1,
+        "offset": 9
+      },
+      "JOUR_TLC_UNM": {
+        "length": 1,
+        "offset": 7
+      },
+      "MOIS_TLC_UNM": {
+        "length": 1,
+        "offset": 8
+      },
+      "SIGNA_TLC": {
+        "length": 3,
+        "offset": 4
+      },
+      "SITE_TLC": {
+        "length": 1,
+        "offset": 3
+      }
+    }
+  },
   "map": {
     "EMF_DGT_LVDS_BD_A55P_V1": {
       "2110": {
